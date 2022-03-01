@@ -1,0 +1,25 @@
+{
+    "name": "justasb/phpunit-mock-api",
+    "description": "A phpunit helper library for mocking API calls.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Justas Bieliauskas",
+            "email": "justyvas0@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Justasb\\MockApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Justasb\\MockApi\\Test\\": "tests/"
+        }
+    }
+}
